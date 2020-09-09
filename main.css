@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-color: red;
+}
