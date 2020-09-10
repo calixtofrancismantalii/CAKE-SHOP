@@ -1,14 +1,55 @@
 *{
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 
+html{
+/*    background-image: url(images/cake-shop-logo.png);*/
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+}
 
+/*Unicersal style*/
 .container{
     max-width: 1200px;
     margin: auto;
 }
+
+
+/*SECTION-ONE*/
+#section-One{
+    background-color: #e9effb;
+}
 header{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+#title-logo{
+    text-align: center;
+    padding: 20px 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+}
+li{
+    display: block;
+    padding: 20px;
+}
+li > a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.active{
+    color: black;
+}
+a:hover:not(.active){
+    color: black;
 }
