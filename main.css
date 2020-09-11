@@ -8,7 +8,7 @@ html{
 /*    background-image: url(images/cake-shop-logo.png);*/
     font-size: 15px;
     color: black;
-    font-family: sans-serif;
+    font-family: sans-serif,'Abhaya';
 }
 
 /*Unicersal style*/
@@ -52,4 +52,39 @@ li > a{
 }
 a:hover:not(.active){
     color: black;
+}
+
+
+
+
+
+#intro{
+    display: flex;
+/*    background-color: blue;*/
+/*    z-index: -1;*/
+}
+#intro > div{
+   
+}
+#intro > div:nth-child(odd){
+/*    background-color: indianred;*/
+     width: 70%;
+}
+#intro #text{
+    width: 30%;
+    text-align: right;
+/*    background-color: aqua;*/
+    padding-left: 100px;
+    line-height: 30px;
+}
+#intro > div:nth-child(odd) h1{
+    font-size: 150px;
+}
+
+
+#slide-wrapper{
+/*    background-color: aquamarine;*/
+    margin-top: -50px;
+    z-index: 1;
+    text-align: center;
 }
