@@ -1,13 +1,14 @@
 *{
 	padding: 0px;
 	margin: 0px;
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html{
 	font-family: sans-serif;
 	color: black;
 	height: 100%;
+	scroll-behavior: auto;
 }
 
 body{
@@ -24,10 +25,11 @@ body{
 }
 
 #section-One{
-	background-color: #e9effb;
+	background-color: #23272f;
 	display: flex;
 	flex-direction: column;
 	height: auto;
+	padding-bottom: 200px;
 }
 
 header{
@@ -38,7 +40,7 @@ header{
 ul{
 	display: flex;
 	justify-content: center;
-    list-style-type: none;
+	list-style-type: none;
 }
 
 li{
@@ -85,6 +87,8 @@ a:hover{
 	margin-left: -130px;
 }
 
-#slide-container{
-	background-color: red;
+#slide-wrapper{
+	display: flex;
+	justify-content: center;
+	margin-top: -130px;
 }
