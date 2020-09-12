@@ -8,11 +8,14 @@ html{
 	font-family: sans-serif;
 	color: black;
 	height: 100%;
-	scroll-behavior: auto;
 }
 
 body{
-	background-color: green;
+	background-image: url(images/html-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container{
@@ -25,7 +28,7 @@ body{
 }
 
 #section-One{
-	background-color: #23272f;
+	background-color: #e9effb;
 	display: flex;
 	flex-direction: column;
 	height: auto;
