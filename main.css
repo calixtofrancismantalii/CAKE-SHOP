@@ -1,90 +1,90 @@
 *{
-    padding: 0px;
-    margin: 0px;
+	padding: 0px;
+	margin: 0px;
     box-sizing: border-box;
 }
 
 html{
-/*    background-image: url(images/cake-shop-logo.png);*/
-    font-size: 15px;
-    color: black;
-    font-family: sans-serif,'Abhaya';
+	font-family: sans-serif;
+	color: black;
+	height: 100%;
 }
 
-/*Unicersal style*/
+body{
+	background-color: green;
+}
+
 .container{
-    max-width: 1200px;
-    margin: auto;
+	max-width: 1200px;
+	margin: auto;
 }
 
+.column{
+	display: flex;
+}
 
-/*SECTION-ONE*/
 #section-One{
-    background-color: #e9effb;
+	background-color: #e9effb;
+	display: flex;
+	flex-direction: column;
+	height: auto;
 }
+
 header{
-    display: flex;
-    flex-direction: column;
+	text-align: center;
+	padding: 50px 0px;
 }
-#title-logo{
-    text-align: center;
-    padding: 20px 0px;
-}
-nav{
-    display: flex;
-    justify-content: center;
-}
+
 ul{
-    display: flex;
+	display: flex;
+	justify-content: center;
+    list-style-type: none;
 }
+
 li{
-    display: block;
-    padding: 20px;
-}
-li > a{
-    text-decoration: none;
-    color: gray;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-.active{
-    color: black;
-}
-a:hover:not(.active){
-    color: black;
+	padding: 20px;
 }
 
-
-
-
-
-#intro{
-    display: flex;
-/*    background-color: blue;*/
-/*    z-index: -1;*/
-}
-#intro > div{
-   
-}
-#intro > div:nth-child(odd){
-/*    background-color: indianred;*/
-     width: 70%;
-}
-#intro #text{
-    width: 30%;
-    text-align: right;
-/*    background-color: aqua;*/
-    padding-left: 100px;
-    line-height: 30px;
-}
-#intro > div:nth-child(odd) h1{
-    font-size: 150px;
+a{
+	text-decoration: none;
+	color: #919397;
+	font-weight: bold;
 }
 
+a:hover{
+	color: white;
+}
 
-#slide-wrapper{
-/*    background-color: aquamarine;*/
-    margin-top: -50px;
-    z-index: 1;
-    text-align: center;
+#intro-wrapper{
+	padding: 50px 0px;
+}
+
+#intro-heading{
+	width: 70%;
+	font-size: 100px;
+	font-family: 'Ibarra Real Nova';
+	line-height: 190px;
+}
+
+#intro-quote{
+	width: 30%;
+	text-align: right;
+	line-height: 30px;
+	color: #777a7f;
+	padding-left: 20px;
+}
+
+#name-signature{
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 40px;
+}
+
+#name-signature img{
+	position: absolute;
+	margin-left: -130px;
+}
+
+#slide-container{
+	background-color: red;
 }
