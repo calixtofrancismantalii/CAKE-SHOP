@@ -95,3 +95,50 @@ a:hover{
 	justify-content: center;
 	margin-top: -130px;
 }
+
+
+/*section-Two*/
+
+#section-Two{
+	color: blue;
+}
+
+#section-Two-left-image{
+	margin-top: -130px;
+}
+
+#section-Two-center-text{
+	text-align: center;
+	padding: 0px 230px;
+}
+
+#section-Two h1{
+	font-size: 100px;
+	font-family: inherit;
+	padding: 20px 0px;
+}
+
+#section-Two span{
+	font-size: 20px;
+}
+
+#section-Two h2{
+	font-size: 40px;
+	padding: 50px 0px;
+}
+
+#section-Two p{
+	font-size: inherit;
+	line-height: 35px;
+}
+
+button{
+	padding: 15px;
+	background-color: black;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: 50px 0px;
+	width: 200px;
+
+}
