@@ -5,7 +5,7 @@
 }
 
 html{
-	font-family: sans-serif;
+	font-family: 'Ibarra Real Nova';
 	color: black;
 	height: 100%;
 }
@@ -26,6 +26,8 @@ body{
 .column{
 	display: flex;
 }
+
+/*section-One*/
 
 #section-One{
 	background-color: #e9effb;
@@ -100,7 +102,7 @@ a:hover{
 /*section-Two*/
 
 #section-Two{
-	color: blue;
+	color: black;
 }
 
 #section-Two-left-image{
@@ -125,6 +127,7 @@ a:hover{
 #section-Two h2{
 	font-size: 40px;
 	padding: 50px 0px;
+    line-height: 80px;
 }
 
 #section-Two p{
@@ -134,11 +137,11 @@ a:hover{
 
 button{
 	padding: 15px;
-	background-color: black;
+	background-color: white;
+    color: black;
 	border: none;
 	outline: none;
 	cursor: pointer;
 	margin: 50px 0px;
 	width: 200px;
-
 }
