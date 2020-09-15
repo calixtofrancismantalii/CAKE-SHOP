@@ -5,7 +5,8 @@
 }
 
 html{
-	font-family: 'Ibarra Real Nova';
+    font-family: ;
+    font-size: 16px;
 	color: black;
 	height: 100%;
 }
@@ -19,7 +20,7 @@ body{
 }
 
 .container{
-	max-width: 1200px;
+	max-width: 1120px;
 	margin: auto;
 }
 
@@ -39,7 +40,7 @@ body{
 
 header{
 	text-align: center;
-	padding: 50px 0px;
+	padding: 30px 0px;
 }
 
 ul{
@@ -53,13 +54,17 @@ li{
 }
 
 a{
+    font-family: sans-serif;
 	text-decoration: none;
 	color: #919397;
-	font-weight: bold;
+}
+
+.active{
+    color: black;
 }
 
 a:hover{
-	color: white;
+	color: black;
 }
 
 #intro-wrapper{
@@ -69,16 +74,19 @@ a:hover{
 #intro-heading{
 	width: 70%;
 	font-size: 100px;
-	font-family: 'Ibarra Real Nova';
-	line-height: 190px;
+	font-family: inherit;
+	line-height: 155px;
+    letter-spacing: 5px;
 }
 
 #intro-quote{
+    font-family: sans-serif;
+    font-size: 16px;
 	width: 30%;
 	text-align: right;
 	line-height: 30px;
 	color: #777a7f;
-	padding-left: 20px;
+	padding-left: 110px;
 }
 
 #name-signature{
@@ -98,11 +106,17 @@ a:hover{
 	margin-top: -130px;
 }
 
+#slide-wrapper img{
+    box-shadow: -1px 15px 24px 5px rgba(0,0,0,0.3);
+    border-radius: 300px;
+}
+
 
 /*section-Two*/
 
 #section-Two{
 	color: black;
+    padding-bottom: 150px;
 }
 
 #section-Two-left-image{
@@ -115,23 +129,28 @@ a:hover{
 }
 
 #section-Two h1{
-	font-size: 100px;
+	font-size: 90px;
+    font-weight: lighter;
 	font-family: inherit;
-	padding: 20px 0px;
+	padding: 30px 0px;
 }
 
 #section-Two span{
 	font-size: 20px;
+    font-family: sans-serif;
 }
 
 #section-Two h2{
 	font-size: 40px;
-	padding: 50px 0px;
-    line-height: 80px;
+    font-weight: lighter;
+	padding: 25px 0px;
+    line-height: 70px;
 }
 
 #section-Two p{
+    font-family: sans-serif;
 	font-size: inherit;
+    color: #777a7f;
 	line-height: 35px;
 }
 
@@ -143,5 +162,9 @@ button{
 	outline: none;
 	cursor: pointer;
 	margin: 50px 0px;
-	width: 200px;
+	width: 160px;
+}
+
+button:hover{
+    color: grey;
 }
