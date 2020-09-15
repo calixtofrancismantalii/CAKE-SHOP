@@ -168,3 +168,21 @@ button{
 button:hover{
     color: grey;
 }
+
+/*section-Three*/
+
+#section-Three{
+/*    background-color: #e9effb;*/
+    background-color: rebeccapurple;
+   
+}
+
+.showcase-row{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border: solid 5px black;
+    margin-top: -90px;
+}
+
+
