@@ -5,7 +5,6 @@
 }
 
 html{
-    font-family: ;
     font-size: 16px;
 	color: black;
 	height: 100%;
@@ -16,7 +15,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;	
 }
 
 .container{
@@ -29,7 +28,6 @@ body{
 }
 
 /*section-One*/
-
 #section-One{
 	background-color: #e9effb;
 	display: flex;
@@ -113,14 +111,17 @@ a:hover{
 
 
 /*section-Two*/
-
 #section-Two{
 	color: black;
-    padding-bottom: 150px;
+	z-index: 1!important;
 }
 
 #section-Two-left-image{
 	margin-top: -130px;
+}
+
+#section-Two .showcase-row{
+	margin-top: 40px;
 }
 
 #section-Two-center-text{
@@ -143,8 +144,18 @@ a:hover{
 #section-Two h2{
 	font-size: 40px;
     font-weight: lighter;
-	padding: 25px 0px;
+	padding: 0px 0px;
     line-height: 70px;
+}
+
+#section-Two .showcase-row span{
+    display: block;
+    color: red;
+	font-size: 30px;
+	font-family: sans-serif;
+	padding-top: 25px;
+	display: block;
+    
 }
 
 #section-Two p{
@@ -170,18 +181,46 @@ button:hover{
 }
 
 /*section-Three*/
-
 #section-Three{
-/*    background-color: #e9effb;*/
-    background-color: red;
-/*    margin-top: -90px;*/
-    height: 1
-   
+  	background-color: #e9effb;
+	padding-top: 520px;
+	margin-top: -450px;
+	z-index: -5;
 }
 
 .showcase-row{
     text-align: center;
     display: flex;
+	justify-content: space-between;
 }
 
+.showcase-row > div{
+	width: 32.3%;
+}
 
+.showcase-wrapper{
+	border: solid 1px black;
+}
+
+.showcase-wrapper span{
+	color: red;
+	font-size: 30px;
+	font-family: sans-serif;
+	padding-top: 25px;
+	display: block;
+}
+
+.showcase-wrapper h2{
+	padding: 18px 0px;
+	font-size: 40px;
+    font-weight: lighter;
+	font-family: inherit;
+}
+
+.showcase-wrapper p{
+	font-family: sans-serif;
+	font-size: inherit;
+	padding: 0px 30px;
+	color: #777a7f;
+	line-height: 30px;
+}
