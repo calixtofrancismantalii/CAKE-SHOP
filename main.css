@@ -136,7 +136,7 @@ a:hover{
 	padding: 30px 0px;
 }
 
-#section-Two span{
+#section-Two-center-text span{
 	font-size: 20px;
     font-family: sans-serif;
 }
@@ -148,6 +148,7 @@ a:hover{
     line-height: 70px;
 }
 
+/*
 #section-Two .showcase-row span{
     display: block;
     color: red;
@@ -157,6 +158,7 @@ a:hover{
 	display: block;
     
 }
+*/
 
 #section-Two p{
     font-family: sans-serif;
@@ -185,6 +187,7 @@ button:hover{
   	background-color: #e9effb;
 	padding-top: 520px;
 	margin-top: -450px;
+    box-shadow: 0px -6px 25px 5px rgba(0,0,0,0.13);
 	z-index: -5;
 }
 
@@ -196,10 +199,6 @@ button:hover{
 
 .showcase-row > div{
 	width: 32.3%;
-}
-
-.showcase-wrapper{
-	border: solid 1px black;
 }
 
 .showcase-wrapper span{
