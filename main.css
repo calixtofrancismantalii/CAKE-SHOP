@@ -33,13 +33,20 @@ body{
 	background-color: #e9effb;
 	display: flex;
 	flex-direction: column;
-	height: auto;
 	padding-bottom: 200px;
 }
 
 header{
 	text-align: center;
 	padding: 30px 0px;
+}
+
+#title-logo{
+    padding: 25px 0px;
+}
+
+label{
+    display: none;
 }
 
 ul{
@@ -284,4 +291,157 @@ footer .column > div{
 #col-two h2{
     font-weight: lighter;
     font-size: 20px;
+}
+
+
+
+
+
+
+/*Mobile View*/
+@media only screen and (max-width: 481px){
+    
+    .container{
+        max-width: 350px;
+        margin: auto;
+    }
+    
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #title-logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
+    
+    label{
+        display: block;
+        background-color: #e8052e;
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+        padding: 10px 15px;
+    }
+    
+    nav{
+        margin-top: 50px;
+        position: absolute;
+        width: 100%;
+        display: none;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background-color: #f9f9f9;
+    }
+    
+    li{
+        border-top: solid 1px #eeeeef;
+    }
+    
+    #intro-heading{
+        font-size: 35px;
+        line-height: normal;
+        width: 100%;
+        letter-spacing: 0px;
+    }
+    
+    #intro-quote{
+        width: 100%;
+        padding: 0px;
+        text-align: left;
+    }
+    
+    #name-signature img{
+        position: static;
+        margin-left: 0px;
+        width: 130px;
+    }
+    
+    #slide-wrapper{
+        margin: 0px;
+    }
+    
+    #slide-wrapper img{
+        width: 100%;
+    }
+    
+    
+    
+    
+    /*section-two*/
+    #section-Two-left-image img{
+        width: 75%;
+    }
+    
+    #section-Two{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #section-Two-center-text{
+        padding: 0px;
+        margin-top: 30px; 
+    }
+    
+    #section-Two-center-text h1{
+        font-size: 55px;
+    }
+    
+    #section-Two-center-text h2{
+        font-size: 33px;
+        line-height: 50px;
+        padding: 20px 0px;
+    }
+    
+    .showcase-row{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #section-Two .showcase-wrapper{
+        margin-bottom: 50px;
+    }
+    
+    .showcase-row > div{
+        width: 100%;
+    }
+    
+    /*section-three*/
+    #section-Three{
+        background-color: #e9effb;
+        padding-top: 1680px;
+        margin-top: -1680px;
+    }
+    
+    #section-Three .showcase-wrapper{
+        margin-bottom: 50px;
+    }
+    
+    #owner{
+        padding: 50px 0px;
+    }
+    
+    #owner q{
+        padding: 0px;
+    }
+    
+    #cake-plate-with-fork{
+/*        width: 200px;*/
+    }
+    
+    #cake-plate-with-fork > div{
+        padding-left: 115px;
+    }
+    
+     #cake-plate-with-fork img{
+        width: 200px;
+    }
 }
