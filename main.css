@@ -433,15 +433,11 @@ footer .column > div{
         padding: 0px;
     }
     
-    #cake-plate-with-fork{
-/*        width: 200px;*/
-    }
-    
     #cake-plate-with-fork > div{
-        padding-left: 115px;
+        padding-left: 70px;
     }
     
      #cake-plate-with-fork img{
-        width: 200px;
+        width: 280px;
     }
 }
