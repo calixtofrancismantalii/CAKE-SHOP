@@ -302,7 +302,7 @@ footer .column > div{
 @media only screen and (max-width: 481px){
     
     .container{
-        max-width: 350px;
+/*        max-width: 350px;*/
         margin: auto;
     }
     
@@ -315,7 +315,7 @@ footer .column > div{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0px;
+        padding: 0px 30px;
     }
     
     label{
@@ -345,6 +345,10 @@ footer .column > div{
         border-top: solid 1px #eeeeef;
     }
     
+    #intro-wrapper{
+        padding: 0px 30px;
+    }
+    
     #intro-heading{
         font-size: 35px;
         line-height: normal;
@@ -366,6 +370,7 @@ footer .column > div{
     
     #slide-wrapper{
         margin: 0px;
+        padding: 0px 30px;
     }
     
     #slide-wrapper img{
@@ -386,7 +391,7 @@ footer .column > div{
     }
     
     #section-Two-center-text{
-        padding: 0px;
+        padding: 0px 30px;
         margin-top: 30px; 
     }
     
@@ -405,6 +410,7 @@ footer .column > div{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding: 0px 30px;
     }
     #section-Two .showcase-wrapper{
         margin-bottom: 50px;
@@ -426,7 +432,7 @@ footer .column > div{
     }
     
     #owner{
-        padding: 50px 0px;
+        padding: 50px 30px;
     }
     
     #owner q{
@@ -444,7 +450,7 @@ footer .column > div{
     /*footer*/
     footer{
         background-color: #dee4ef;
-        padding: 150px 0px 0px;
+        padding: 150px 30px 0px;
         margin-top: -115px;
     }
     
