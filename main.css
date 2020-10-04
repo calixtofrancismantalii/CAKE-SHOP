@@ -302,7 +302,6 @@ footer .column > div{
 @media only screen and (max-width: 481px){
     
     .container{
-/*        max-width: 350px;*/
         margin: auto;
     }
     
@@ -492,6 +491,48 @@ footer .column > div{
 
 
 /*tablet view*/
-@media only screen and (max-width: 768){
+@media only screen and (max-width: 768px){
     
+    .container{
+        margin: auto;
+    }
+    
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #title-logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    
+    label{
+        display: block;
+        background-color: #e8052e;
+        color: white;
+        border-radius: 5px;
+        font-size: 35px;
+        padding: 10px 15px;
+    }
+    
+    nav{
+        margin-top: 50px;
+        position: absolute;
+        width: 100%;
+        display: none;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background-color: #f9f9f9;
+    }
+    
+    li{
+        border-top: solid 1px #eeeeef;
+    }
 }
