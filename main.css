@@ -535,4 +535,28 @@ footer .column > div{
     li{
         border-top: solid 1px #eeeeef;
     }
+    
+    #intro-wrapper{
+        padding: 0px 30px;
+    }
+    
+    #intro-heading{
+        font-size: 35px;
+        line-height: normal;
+        width: 100%;
+        letter-spacing: 0px;
+    }
+    
+    #intro-quote{
+        width: 100%;
+        padding: 0px;
+        text-align: left;
+    }
+    
+    #name-signature img{
+        position: static;
+        margin-left: 0px;
+        width: 130px;
+    }
+    
 }
