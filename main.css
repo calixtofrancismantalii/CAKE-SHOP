@@ -349,7 +349,7 @@ footer .column > div{
     }
     
     #intro-heading{
-        font-size: 35px;
+        font-size: 35px!important;
         line-height: normal;
         width: 100%;
         letter-spacing: 0px;
@@ -358,7 +358,7 @@ footer .column > div{
     #intro-quote{
         width: 100%;
         padding: 0px;
-        text-align: left;
+        text-align: left!important;
     }
     
     #name-signature img{
@@ -499,7 +499,7 @@ footer .column > div{
     
     .column{
         display: flex;
-        flex-direction: column;
+/*        flex-direction: column;*/
     }
     
     #title-logo{
@@ -541,7 +541,7 @@ footer .column > div{
     }
     
     #intro-heading{
-        font-size: 35px;
+        font-size: 60px;
         line-height: normal;
         width: 100%;
         letter-spacing: 0px;
@@ -550,7 +550,7 @@ footer .column > div{
     #intro-quote{
         width: 100%;
         padding: 0px;
-        text-align: left;
+        text-align: right;
     }
     
     #name-signature img{
