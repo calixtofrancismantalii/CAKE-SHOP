@@ -1,0 +1,118 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: black;
+  height: 100%;
+}
+
+body {
+  background-image: url(images/html-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*universal style*/
+.container {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.column {
+  display: flex;
+}
+
+/*section-One*/
+#section-One {
+  background-color: #e9effb;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 200px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#title-logo {
+  padding: 25px 0px;
+}
+
+label {
+  display: none;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #919397;
+}
+
+.active {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+#intro-wrapper {
+  padding: 50px 0px;
+}
+
+#intro-heading {
+  width: 70%;
+  font-size: 100px;
+  font-family: inherit;
+  line-height: 155px;
+  letter-spacing: 5px;
+}
+
+#intro-quote {
+  font-family: sans-serif;
+  font-size: 16px;
+  width: 30%;
+  text-align: right;
+  line-height: 30px;
+  color: #777a7f;
+  padding-left: 110px;
+}
+
+#name-signature {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+#name-signature img {
+  position: absolute;
+  margin-left: -130px;
+}
+
+#slide-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -130px;
+}
+
+#slide-wrapper img {
+  box-shadow: -1px 15px 24px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 300px;
+}
